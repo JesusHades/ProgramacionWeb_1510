@@ -27,7 +27,7 @@ public class MySQLConnect {
         try {
           conecta = (Connection)DriverManager.getConnection(url, nombre_usuario, password);
           st = conecta.createStatement();
-          st.executeLargeUpdate("INSERT INTO alumno VALUES(null, 'Jesus Manriquez', '123456')");
+          st.executeLargeUpdate("INSERT INTO alumno VALUES(null, 'Jesus Manriquez', 'jmanri05@gmail.com', '123456')");
           rs = st.executeQuery("Select * FROM alumno");
           rs.next();
           do {

@@ -17,23 +17,23 @@ if($contar == 1) {
 } else {
     mysqli_query($conexion, "INSERT INTO usuarios (
     nombre,
+    num_cuenta,
+    nombre_usuario,
     direccion,
     telefono,
-    correo,
-    nombre_usuario,
-    password)
+    correo)
         VALUES(
-    '$_POST[usuario]',
+    '$_POST[nombre]',
+    '$_POST[num_cuenta]',
+    '$_POST[nombre_usuario]',
     '$_POST[direccion]',
     '$_POST[telefono]',
-    '$_POST[correo]',
-    '$_POST[nombre_usuario]',
-    '$_POST[password]'        
+    '$_POST[correo]'      
     )");
 
 echo "<br />" . "<h2>" . "Usuario Creado Exitosamente!" . "</h2>";
-echo "<h4>" . "Bienvenido: " . $_POST['usuario'] . "</h4>" . "\n\n";
-echo "<h5>" . "<a href='./form_registro.php'>Registro</a>" . "</h5>";
+echo "<h4>" . "Bienvenido: " . $_POST['nombre'] . "</h4>" . "\n\n";
+echo "<h5>" . "<a href='./Formulario.php'>Registro</a>" . "</h5>";
 }
 
 ?>

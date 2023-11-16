@@ -45,7 +45,21 @@ session_start();
 <!--Nombre-->
 <div class = "grupo_formulario">
 <label for="nombre">Nombre Completo: </label><br>
-<input type="text" name = "usuario" maxlenght = "255" required>
+<input type="text" name = "nombre" maxlenght = "255" required>
+<br/><br/>
+</div>
+
+<!--No. de cuenta-->
+<div class = "grupo_formulario">
+<label for="num_cuenta">Numero de Cuenta: </label><br>
+<input type="text" name = "num_cuenta" maxlenght = "255" required>
+<br/><br/>
+</div>
+
+<!--Usuario-->
+<div class = "grupo_formulario">
+<label for="nombre_usuario">Nombre Uusario: </label><br>
+<input type="text" name = "nombre_usuario" maxlenght = "255" required>
 <br/><br/>
 </div>
 
@@ -68,19 +82,6 @@ session_start();
 <label for="correo">Correo Electronico: </label><br>
 <input type="email" name = "correo" maxlenght = "40" required>
 <br/><br/>
-</div>
-
-<!--Usuario-->
-<div class = "grupo_formulario">
-<label for="nombre">Nombre Uusario: </label><br>
-<input type="text" name = "nombre_usuario" maxlenght = "255" required>
-<br/><br/>
-</div>
-
-<!--Contraseña-->
-<div class = "grupo_formulario">
-<label for="pass">Contraseña: </label><br>
-<input type="password" name = "password" maxlenght = "12" required>
 </div>
 
 <br/><br/>

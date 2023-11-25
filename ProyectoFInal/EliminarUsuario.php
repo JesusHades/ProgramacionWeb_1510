@@ -17,12 +17,13 @@
     <form style = "text-aling center;" method = "POST" action="EliminarUsuario_Funcion.php">
 
 
-        
+    <input type="text" name="num_cuenta" placeholder="Numero de Cuenta" />
 
+    <br /> 
 
+    <button type = "submit">ELIMINAR USUARIO</button>    
 
-
-
+    
     </form>
 
 

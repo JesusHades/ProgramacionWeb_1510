@@ -9,4 +9,5 @@ $consulta="DELETE FROM usuarios WHERE num_cuenta = ";
 mysqli_query($conexion, $consulta . $registroEliminado);
 mysqli_close($conexion);
 
+header('Location: EliminarUsuario.php');
 ?>

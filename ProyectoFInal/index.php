@@ -16,6 +16,36 @@ $resultado = $conexion->query($consulta_sql);
 $count = mysqli_num_rows($resultado);
 
 
+echo "<table border = '2'>
+
+    <tr>
+    
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>No de Cuenta</th>
+        <th>Usuario</th>
+        <th>Direccion</th>
+        <th>Telefono</th>
+        <th>Correo Electronico</th>
+    
+    </tr>";
+
+
+
+
+
+
+
+
+
+</table>
+
+
+
+
+
+
+
 
 
 

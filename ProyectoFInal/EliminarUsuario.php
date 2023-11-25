@@ -28,6 +28,8 @@
 
     <h1><a href="index.php">Inicio de Listas</a></h1>
 
+    <h1><a href="Formulario.php">Agregar Usuario</a></h1>
+
 
 </body>
 

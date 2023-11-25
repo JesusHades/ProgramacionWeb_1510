@@ -23,17 +23,13 @@
 
     <button type = "submit">ELIMINAR USUARIO</button>    
 
-    
+
     </form>
 
+    <h1><a href="index.php">Inicio de Listas</a></h1>
 
 
 </body>
-
-
-
-
-
 
 
 </html>

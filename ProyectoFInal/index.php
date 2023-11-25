@@ -30,21 +30,28 @@ echo "<table border = '2'>
     
     </tr>";
 
+if ($count>0) {
+
+    while( $row = mysqli_fetch_assoc($resultado) ) {
+
+        echo "<tr>";
+        echo "<td>". $row['id'] ."</td>";
+        echo "<td>". $row['nombre'] ."</td>";
+        echo "<td>". $row['num_cuenta'] ."</td>";
+        echo "<td>". $row['nombre_usuario'] ."</td>";
+        echo "<td>". $row['direccion'] ."</td>";
+        echo "<td>". $row['telefono'] ."</td>";
+        echo "<td>". $row['correo'] ."</td>";
+        echo "</tr>";
+
+    }
+    echo "</table>";
 
 
+} else {
 
-
-
-
-
-
-</table>
-
-
-
-
-
-
+    echo "<h1 style = 'color:red'>Sin Ningun Registro</h1>";
+    }
 
 
 

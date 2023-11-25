@@ -6,7 +6,7 @@ mysqli_set_charset($conexion, 'utf8');
 
 //Declaracion de variables
 
-$buscarUsuario = "SELECT * FROM usuarios where nombre_usuario = '$ POST[nombre_usuario]'";
+$buscarUsuario = "SELECT * FROM usuarios where nombre_usuario = '$_POST[nombre_usuario]'";
 
 $resultado = $conexion -> query($buscarUsuario);
 $contar = mysqli_num_rows($resultado);

@@ -98,6 +98,7 @@ session_start();
 
 <br/>
 <h1><a href="index.php">Inicio de Listas</a></h1>
+<h1><a href="EliminarUsuario.php">Eliminar Usuario</a></h1>
 
 </body>
 

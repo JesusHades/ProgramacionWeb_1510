@@ -9,21 +9,25 @@
 </head>
 
 
+<body>
+    
+
+    <h1 style = "text-aling: center;">Eliminar Usuario</h1>
+
+    <form style = "text-aling center;" method = "POST" action="EliminarUsuario_Funcion.php">
+
+
+        
 
 
 
 
 
+    </form>
 
 
 
-
-
-
-
-
-
-
+</body>
 
 
 

@@ -96,6 +96,9 @@ session_start();
 </form>
 
 
+<br/>
+<h1><a href="index.php">Inicio de Listas</a></h1>
+
 </body>
 
 </html>

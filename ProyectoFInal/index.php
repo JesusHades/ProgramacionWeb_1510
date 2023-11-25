@@ -56,8 +56,7 @@ if ($count>0) {
 
     echo "<h1> <a href='EliminarUsuario.php'>Eliminar Usuario</a></h1>"
 
-    
-
+    echo "<h1> <a href='Formulario.php'>Agregar Usuario</a></h1>"
 
 
 ?>

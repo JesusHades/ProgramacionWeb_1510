@@ -1,5 +1,6 @@
 <?php
 
+
 require "conexion.php";
 mysqli_set_charset($conexion,'utf8');
 
@@ -54,9 +55,9 @@ if ($count>0) {
     }
 
 
-    echo "<h1> <a href='EliminarUsuario.php'>Eliminar Usuario</a></h1>"
+    echo "<h1> <a href='EliminarUsuario.php'>Eliminar Usuario</a></h1>";
 
-    echo "<h1> <a href='Formulario.php'>Agregar Usuario</a></h1>"
+    echo "<h1> <a href='Formulario.php'>Agregar Usuario</a></h1>";
 
 
 ?>
